@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3 {
+  font-family: 'Bungee', cursiva;
+  font-weight: normal;
+
+  body,
+  input,
+  textarea {
+    font-family: "Roboto", sans-serif;
+  }
+
+
+  header h1, 
+  section h2 {
+    font-weight: normal;
+  }
+
+}
+header {
+  padding: 16px 0;
+  background-color: #0c0c0c;
+  color: #3e3e3e;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+header nav li a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container img {
+  height: 500px;
+}
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-list img {
+  height: 32px;
+}
+
+.brand-list li {
+  display: inline;
+  margin-right: 8px;
+}
+
+section.cotainer {
+  align-items: flex-start;
+}
+p{
+  font-size: medium;
+  color: #2b2b2c;
+}
+section {
+  padding: 24px 0;
+}
+section{
+color: #0c0c0c;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+section h2 {
+  margin bottom: 16px;
+color: #000
+}
+
+.time-front{
+  margin-right: 32px;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4{
+text-align: center;
+font-family: 'Bungee', cursiva;
+font-size: 24px;
+background-color: #7a7a7a;
+
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+section h3{
+  margin-bottom: 16px;
+}
+
+form button {
+  background-color: #0f0f0f;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2b2b2c;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #3d3d3d;
+}
+
+footer {
+  background-color: #020202;
+  color: #ecf0f1;
+  padding: 16px 0;
+}
+
